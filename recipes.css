@@ -1,0 +1,40 @@
+.heading-description {
+  font-family: 'Gill Sans', sans-serif
+}
+
+/* 'Courier New' is a "font family name" while sans-serif is a "generic family name" */
+/* More than one font-family is listed in case the one you choose is unavailable. */
+/* The browser checks the next one on the list and so on. */
+.heading-ingredients,
+.heading-steps {
+  font-family:'Courier New', Courier, monospace
+}
+
+#spaghetti-nonna-img {
+
+}
+
+/* Explicitly stating height and width reserves space on the page until image loads. */
+/* This prevents sudden shifting of contents on the page the moment an image loads. */
+#kimchi-pot-roast-img {
+  height: 500px;
+  width: 700px;
+}
+
+.my-div.nav-link {
+
+}
+
+/* descendant combinator */
+.ancestor .descendant {
+  background-color: coral;
+}
+
+/* try font-size: 22px */
+/* try text-align: center */
+/* try font-weight: bold */
+
+/* General cascading specificity levels */
+/* 1. ID selectors (most specific) */
+/* 2. Class selectors */
+/* 3. Type selectors */
